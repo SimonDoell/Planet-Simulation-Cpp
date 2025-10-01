@@ -150,7 +150,7 @@ int main() {
 
 
     //Main Windows settings
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Titel", sf::Style::Titlebar | sf::Style::Close);
+    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Gravity Simulation", sf::Style::Titlebar | sf::Style::Close);
     window.setFramerateLimit(MAX_FRAMES);
     sf::Event ev;
     sf::ContextSettings settings;
